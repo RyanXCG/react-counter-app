@@ -1,0 +1,30 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #f8f9fa;
+}
+/* #f8f9fa; */
+
+.header__cart {
+  width: 45px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.header__count {
+  background-color: #17a2b8;
+  color: white;
+  width: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.header__items {
+  font-size: large;
+}

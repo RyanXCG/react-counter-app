@@ -1,0 +1,47 @@
+.home {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons__container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.clear__button {
+  background-color: #2ca444;
+  color: white;
+  margin-right: 20px;
+  height: 40px;
+  width: 45px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.clear__button:disabled {
+  background-color: #74c687;
+}
+
+.clear__button:hover {
+  background-color: #218838;
+}
+
+.reset__button {
+  background-color: #007bff;
+  color: white;
+  height: 40px;
+  width: 45px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.reset__button:disabled {
+  background-color: #5aaaff;
+}
+
+.reset__button:hover:enabled {
+  background-color: #0069d9;
+}

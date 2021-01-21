@@ -1,0 +1,70 @@
+.counterRow {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.counter__container {
+  width: 70px;
+}
+
+.zero {
+  height: 40px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #ffc107;
+  color: black;
+}
+
+.nonzero {
+  width: fit-content;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+.counter__button {
+  margin-right: 7px;
+  border-radius: 5px;
+  height: 40px;
+  width: 42px;
+  border: 1px solid;
+}
+
+.plus {
+  background-color: #6c757d;
+  color: white;
+}
+
+.plus:hover {
+  background-color: #5a6268;
+}
+
+.minus {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.minus:disabled {
+  background-color: #69c3d1;
+}
+
+.minus:hover:enabled {
+  background-color: #138496;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete:hover {
+  background-color: #c82333;
+}
